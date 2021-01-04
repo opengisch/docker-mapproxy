@@ -42,6 +42,9 @@ For production use, you might want to change this, to keep the configuration
 in a read-only volume and the cache in a read-write volume with different
 requirements regarding backup, versioning etc.
 
+The following example loads the configuration from a bind mounted directory
+and stores caches into a volume.
+
 docker-compose.yaml:
 ```yaml
 services:
