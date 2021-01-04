@@ -6,8 +6,9 @@ Exposes a mapproxy on port 8080.
 
 This image comes
 
- - with support for [ogr based coverages](https://mapproxy.org/docs/nightly/coverages.html#coverages)
- - does not require su
+ - With mapproxy (that's why you are here, right ? :tada:)
+ - Is optimized for production with configuration mounted readonly
+ - Includes support for [ogr based coverages](https://mapproxy.org/docs/nightly/coverages.html#coverages)
 
 ## Quickstart
 
