@@ -116,11 +116,8 @@ grids:
 
 globals:
   cache:
-    meta_size: [6, 6]
-    meta_buffer: 20
     base_dir: '/io/cache'
     lock_dir: '/io/cache/locks'
-    # where to store lockfiles for tile creation
     tile_lock_dir: '/io/cache/tile_locks'
 ```
 
